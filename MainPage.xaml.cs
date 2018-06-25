@@ -13,12 +13,12 @@ namespace XamarinForms.CancelableModal
 
         private void ButtonNavigationStack_OnClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new FirstPage());
+            Navigation.PushAsync(new FirstNavigationStack());
         }
 
         private void ButtonModalStack_OnClicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new NavigationPage(new SecondPage()));
+            Navigation.PushModalAsync(new NavigationPage(new FirstModalStack()));
         }
     }
 }

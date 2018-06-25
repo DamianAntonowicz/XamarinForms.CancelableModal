@@ -33,11 +33,19 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FirstPage.xaml">
+    <EmbeddedResource Include="FirstNavigationStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="SecondPage.xaml">
+    <EmbeddedResource Include="SecondNavigationStack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstModalStack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondModalStack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -51,11 +59,17 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FirstPage.xaml.cs">
-      <DependentUpon>FirstPage.xaml</DependentUpon>
+    <Compile Include="FirstNavigationStack.xaml.cs">
+      <DependentUpon>FirstNavigationStack.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SecondPage.xaml.cs">
-      <DependentUpon>SecondPage.xaml</DependentUpon>
+    <Compile Include="SecondNavigationStack.xaml.cs">
+      <DependentUpon>SecondNavigationStack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FirstModalStack.xaml.cs">
+      <DependentUpon>FirstModalStack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecondModalStack.xaml.cs">
+      <DependentUpon>SecondModalStack.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
