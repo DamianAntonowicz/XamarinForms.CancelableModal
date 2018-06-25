@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns ="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinForms.CancelableModal.SecondPage"
+    Title="Second Page">
+    
+    <!-- <ContentPage.ToolbarItems> -->
+    <!--     <ToolbarItem Text="CANCEL" -->
+    <!--                  Clicked="ToolbarItemCancel_OnClicked"/> -->
+    <!-- </ContentPage.ToolbarItems> -->
+    
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        
+        <Label FontSize="Large"
+               Text="SECOND PAGE"/>
+        
+        <Button Text="go deeper"
+                Clicked="ButtonGoDeeper_OnClick"/>
+        
+    </StackLayout>
+    
+</ContentPage>
