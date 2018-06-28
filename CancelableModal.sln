@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.CancelableModal", "XamarinForms.CancelableModal.csproj", "{116BC00B-61D1-40FD-9DB6-5908D707BC86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.CancelableModal", "Common\XamarinForms.CancelableModal.csproj", "{116BC00B-61D1-40FD-9DB6-5908D707BC86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.CancelableModal.iOS", "iOS\XamarinForms.CancelableModal.iOS.csproj", "{487B74F2-9F2A-40B9-A1BD-775109D0BE51}"
 EndProject
