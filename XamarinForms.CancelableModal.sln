@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.CancelableModal", "XamarinForms.CancelableModal.csproj", "{116BC00B-61D1-40FD-9DB6-5908D707BC86}"
@@ -8,10 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.CancelableModal.Droid", "Droid\XamarinForms.CancelableModal.Droid.csproj", "{77A43069-3824-441D-9846-97F80A087A3A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{4F32A2D8-CA28-422F-9144-61B495463DCF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{E2EE679D-6F2A-4045-94F2-1A66E6C0E166}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAndroid.CancelableModal", "XamarinAndroid.CancelableModal\XamarinAndroid.CancelableModal.csproj", "{99B32985-3992-4F66-A1EB-1B138BB06D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,23 +55,10 @@ Global
 		{77A43069-3824-441D-9846-97F80A087A3A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{77A43069-3824-441D-9846-97F80A087A3A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{77A43069-3824-441D-9846-97F80A087A3A}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|iPhone.Build.0 = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{116BC00B-61D1-40FD-9DB6-5908D707BC86} = {4F32A2D8-CA28-422F-9144-61B495463DCF}
 		{77A43069-3824-441D-9846-97F80A087A3A} = {4F32A2D8-CA28-422F-9144-61B495463DCF}
 		{487B74F2-9F2A-40B9-A1BD-775109D0BE51} = {4F32A2D8-CA28-422F-9144-61B495463DCF}
-		{99B32985-3992-4F66-A1EB-1B138BB06D7A} = {E2EE679D-6F2A-4045-94F2-1A66E6C0E166}
 	EndGlobalSection
 EndGlobal
