@@ -53,7 +53,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
 
             if (Element.CurrentPage is IModalPage)
             {
-                _modalToolbar.SetNavigationIcon(Android.Resource.Drawable.IcMenuCloseClearCancel);
+                _modalToolbar.SetNavigationIcon(Resource.Drawable.baseline_close_white_24);
             }
         }
 
