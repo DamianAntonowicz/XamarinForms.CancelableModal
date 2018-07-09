@@ -51,7 +51,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
         {
             base.OnLayout(changed, l, t, r, b);
 
-            if (Element.CurrentPage is IModalPage modalPage)
+            if (Element.CurrentPage is IModalPage)
             {
                 _modalToolbar.SetNavigationIcon(Android.Resource.Drawable.IcMenuCloseClearCancel);
             }
@@ -61,7 +61,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
         {
             if (Element.CurrentPage is IModalPage modalPage)
             {
-                Element.Navigation.PopModalAsync();
+                modalPage.Dismiss();
             }
             else
             {
