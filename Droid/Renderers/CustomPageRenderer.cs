@@ -65,7 +65,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
             }
             else
             {
-                Element.Navigation.PopAsync();
+                Element.SendBackButtonPressed();
             }
         }
     }
