@@ -3,7 +3,7 @@
     xmlns ="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XamarinForms.CancelableModal.SecondModalStack"
-    Title="First Modal Stack">
+    Title="Second Modal Stack">
     
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">

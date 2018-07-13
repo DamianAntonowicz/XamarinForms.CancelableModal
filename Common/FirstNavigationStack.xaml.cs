@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace XamarinForms.CancelableModal
 {
-    public partial class FirstNavigationStack : ContentPage
+    public partial class FirstNavigationStack : ContentPage//, IModalPage
     {
         public FirstNavigationStack()
         {
@@ -16,5 +16,10 @@ namespace XamarinForms.CancelableModal
         {
             Navigation.PushAsync(new SecondNavigationStack());
         }
+
+//        public void Dismiss()
+//        {
+//            Navigation.PopAsync();
+//        }
     }
 }

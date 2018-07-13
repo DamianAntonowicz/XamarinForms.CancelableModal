@@ -28,11 +28,8 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
             if (Element.CurrentPage is IModalPage modalPage)
             {
                 var activity = Context as FormsAppCompatActivity;
-                var content = activity.FindViewById(Android.Resource.Id.Content) as ViewGroup;
 
-                var toolbars = content.GetChildrenOfType<Toolbar>();
-
-                _modalToolbar = toolbars.Last();
+                _modalToolbar = activity.FindViewById<Toolbar>(Resource.Id.toolbar);
                 _modalToolbar.NavigationClick += ModalToolbarOnNavigationClick;
             }
         }
@@ -53,7 +50,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
 
             if (Element.CurrentPage is IModalPage)
             {
-                _modalToolbar.SetNavigationIcon(Resource.Drawable.baseline_close_white_24);
+                _modalToolbar?.SetNavigationIcon(Resource.Drawable.baseline_close_white_24);
             }
         }
 
@@ -68,5 +65,22 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
                 Element.SendBackButtonPressed();
             }
         }
+        
+        //=========================================
+//        protected override void OnAttachedToWindow()
+//        {
+//            base.OnAttachedToWindow();
+//
+//            if (Element.CurrentPage is IModalPage modalPage)
+//            {
+//                var activity = Context as FormsAppCompatActivity;
+//                var content = activity.FindViewById(Android.Resource.Id.Content) as ViewGroup;
+//
+//                var toolbars = content.GetChildrenOfType<Toolbar>();
+//
+//                _modalToolbar = toolbars.Last();
+//                _modalToolbar.NavigationClick += ModalToolbarOnNavigationClick;
+//            }
+//        }
     }
 }

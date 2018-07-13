@@ -6,6 +6,11 @@
     x:Class="XamarinForms.CancelableModal.FirstModalStack"
     Title="First Modal Stack">
     
+    <!-- <ContentPage.ToolbarItems> -->
+    <!--     <ToolbarItem Text="Cancel" -->
+    <!--                  Clicked="MenuItemCancel_OnClicked"/> -->
+    <!-- </ContentPage.ToolbarItems> -->
+    
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
         
@@ -14,6 +19,9 @@
         
         <Button Text="go deeper"
                 Clicked="ButtonGoDeeper_OnClicked"/>
+        
+        <Button Text="close modal"
+                Clicked="ButtonCloseModal_OnClicked"/>
         
     </StackLayout>
     
