@@ -8,15 +8,15 @@ using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms.Platform.Android.AppCompat;
 using XamarinForms.CancelableModal.Droid.Renderers;
 
-[assembly: ExportRenderer(typeof(NavigationPage), typeof(CustomPageRenderer))]
+[assembly: ExportRenderer(typeof(NavigationPage), typeof(CustomNavigationPageRenderer))]
 
 namespace XamarinForms.CancelableModal.Droid.Renderers
 {
-    public class CustomPageRenderer : NavigationPageRenderer
+    public class CustomNavigationPageRenderer : NavigationPageRenderer
     {
         private Toolbar _modalToolbar;
 
-        public CustomPageRenderer(Context context)
+        public CustomNavigationPageRenderer(Context context)
             : base(context)
         {
         }
@@ -25,7 +25,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
         {
             base.OnAttachedToWindow();
 
-            if (Element.CurrentPage is IModalPage modalPage)
+            if (Element.CurrentPage is IModalPage)
             {
                 var activity = Context as FormsAppCompatActivity;
                 var content = activity.FindViewById(Android.Resource.Id.Content) as ViewGroup;
@@ -53,7 +53,7 @@ namespace XamarinForms.CancelableModal.Droid.Renderers
 
             if (Element.CurrentPage is IModalPage)
             {
-                _modalToolbar.SetNavigationIcon(Resource.Drawable.baseline_close_white_24);
+                _modalToolbar?.SetNavigationIcon(Resource.Drawable.baseline_close_white_24);
             }
         }
 

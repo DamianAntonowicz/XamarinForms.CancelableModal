@@ -115,7 +115,7 @@
   <ItemGroup>
     <Compile Include="Extensions\ViewGroupExtensions.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Renderers\CustomPageRenderer.cs" />
+    <Compile Include="Renderers\CustomNavigationPageRenderer.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
