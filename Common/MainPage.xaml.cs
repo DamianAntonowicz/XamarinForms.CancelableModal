@@ -9,6 +9,7 @@ namespace XamarinForms.CancelableModal
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "Back");
         }
 
         private void ButtonNavigationStack_OnClicked(object sender, EventArgs e)

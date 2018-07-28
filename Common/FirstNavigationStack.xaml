@@ -4,7 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XamarinForms.CancelableModal.FirstNavigationStack"
-    Title="First Nav Stack">
+    Title="First Nav Stack Page">
     
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
