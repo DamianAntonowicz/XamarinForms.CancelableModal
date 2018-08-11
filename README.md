@@ -2,7 +2,7 @@
 
 Xamarin.Forms doesn't support closing modal page out of the box. We have to implement this feature manually. 
 
-This sample project is showing how to implement a close button on modal page in Xamarin.Forms. Close button is implemented according to guidelines provided by Apple and Google.
+This sample project presents how to implement a close button on a modal page in Xamarin.Forms. The close button is implemented according to the guidelines provided by Apple and Google.
 
 ## Android
 
